@@ -1,9 +1,10 @@
 FROM octohost/ruby-2.0
 
-WORKDIR /srv/www
-
 RUN mkdir /srv/www
 ADD . /srv/www
+
+WORKDIR /srv/www
+
 RUN bundle install --deployment
 
 EXPOSE 3000
