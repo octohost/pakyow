@@ -1,20 +1,17 @@
-This app was generated for pakyow-0.8.
+Pakyow
+====
 
----
+Basic [Pakyow](http://pakyow.com/) container for octohost.
 
-# Getting Started
+Clone this repo and use Pakyow to develop your website.
 
-Start the server:
+Push this repo to your octohost:
 
-  `pakyow server`
+```
+git clone https://github.com/octohost/pakyow.git
+cd pakyow
+git remote add octohost git@ip.address.here:pakyow.git
+git push octohost master
+```
 
-Fire up a console:
-
-  `pakyow console`
-
-# Help
-
-Full documentation is available at [pakyow.com/docs](http://pakyow.com/docs).
-
-Having trouble? Find help on the [mailing list](http://groups.google.com/group/pakyow)
-or file an issue on [GitHub Issues](https://github.com/metabahn/pakyow/issues).
+Example site \(usually\) at [http://pakyow.octohost.io](http://pakyow.octohost.io)
