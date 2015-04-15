@@ -13,5 +13,3 @@ cd pakyow
 git remote add octohost git@ip.address.here:pakyow.git
 git push octohost master
 ```
-
-Example site \(usually\) at [http://pakyow.octohost.io](http://pakyow.octohost.io)
